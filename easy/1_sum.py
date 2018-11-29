@@ -30,6 +30,7 @@ class Solution:
     def two_sum3(self, nums, target):
         """
         第三次提交，希望有好点的结果，哈哈哈哈 48ms
+
         """
         dic = dict(zip(nums, range(len(nums))))
 
@@ -37,7 +38,6 @@ class Solution:
             flag = target - nums[i]
             if flag in dic and i != dic[flag]:
                 return [i, dic[flag]]
-
 
     def run(self):
         nums = [2, 7, 11, 15]
