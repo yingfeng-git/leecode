@@ -5,7 +5,7 @@
 
 
 class Solution:
-    def two_sum(self, nums, target):
+    def twoSum(self, nums, target):
         """
         第一次提交，提示超时 T_T
         """
